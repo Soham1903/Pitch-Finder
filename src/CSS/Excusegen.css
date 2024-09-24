@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+div {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Header and Title Styling */
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  color: #666;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* Image Styling */
+img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* Excuse Display Styling */
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 1.5rem;
+  background-color: #f9f9f9;
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+/* Button Styling */
+button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  outline: none;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #ff4b4b;
+  transform: translateY(-2px);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.5);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  div {
+    padding: 30px;
+  }
+
+  button {
+    padding: 10px 20px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

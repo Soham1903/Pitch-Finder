@@ -8,7 +8,7 @@
 }
 
 /* Main container */
-.App {
+/* .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,6 +16,6 @@
   font-family: Arial, sans-serif;
   min-height: 100vh;
   background-color: #f0f4f8;
-}
+} */
 
 /* Add Task container */
