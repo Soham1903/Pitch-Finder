@@ -9,12 +9,6 @@ function Todolist() {
     setNewTask(event.target.value);
   };
 
-  const handleKeyDown = (event) => {
-    if (event.key === "Enter") {
-      addTask();
-    }
-  };
-
   const addTask = () => {
     if (newTask.trim() === "") return;
     const task = {
@@ -43,14 +37,14 @@ function Todolist() {
       })
     );
   };
+
   return (
-    <div>
+    <div className="App">
       <div className="addTask">
         <h1 style={{ color: "#218838", marginBottom: "15px" }}>TO-DO-LIST</h1>
         <input
           value={newTask}
           onChange={handleChange}
-          onKeyDown={handleKeyDown}
           placeholder="Enter a new task"
         />
         <button onClick={addTask}>Add Task</button>

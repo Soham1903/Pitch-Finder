@@ -1,21 +1,8 @@
-/* App.css */
-
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Main container */
-/* .App {
+.App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: Arial, sans-serif;
-  min-height: 100vh;
-  background-color: #f0f4f8;
-} */
-
-/* Add Task container */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f0f4f8; /* Light background for the app */
+}

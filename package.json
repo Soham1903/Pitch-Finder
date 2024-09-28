@@ -8,9 +8,14 @@
     "@testing-library/user-event": "^13.5.0",
     "ajv": "^8.17.1",
     "axios": "^1.7.7",
+    "m": "^1.9.0",
+    "pitchfinder": "^2.3.2",
+    "pitchy": "^4.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
+    "standardized-audio-context": "^25.3.77",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
